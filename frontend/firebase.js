@@ -19,7 +19,7 @@ import {
 // };
 const firebaseConfig = {
 
-apiKey: "AIzaSyALuHTmibWB6k1dyJFb26ATKCqlmOlulrY",
+// apiKey: "AIzaSyALuHTmibWB6k1dyJFb26ATKCqlmOlulrY",
 authDomain: "babamahakaalpg.firebaseapp.com",
 projectId: "babamahakaalpg",
 storageBucket: "babamahakaalpg.firebasestorage.app",
