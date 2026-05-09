@@ -133,7 +133,7 @@ window.bookRoom = async function(roomType){
   try{
 
     // CREATE ORDER FROM BACKEND
-    const res = await fetch("https://YOUR-RENDER-URL.onrender.com/create-order",{
+    const res = await fetch("https://pg-booking-system.onrender.com",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
@@ -160,7 +160,7 @@ window.bookRoom = async function(roomType){
       handler: async function(response){
 
         // VERIFY PAYMENT
-        const verifyRes = await fetch("https://YOUR-RENDER-URL.onrender.com/verify-payment",{
+        const verifyRes = await fetch("https://pg-booking-system.onrender.com"/verify-payment",{
 
           method:"POST",
 
