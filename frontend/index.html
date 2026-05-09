@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baba Mahakaal PG House & Hostel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f7fb;
+color:#222;
+overflow-x:hidden;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+url('images/building.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:72px;
+font-weight:700;
+color:white;
+line-height:1.1;
+}
+
+.hero p{
+margin-top:20px;
+font-size:22px;
+color:#f1f1f1;
+}
+
+.btns{
+margin-top:35px;
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:14px 34px;
+text-decoration:none;
+border-radius:12px;
+font-size:17px;
+font-weight:600;
+transition:0.3s;
+}
+
+.primary{
+background:#ff7a00;
+color:white;
+}
+
+.primary:hover{
+background:#e86700;
+transform:translateY(-4px);
+}
+
+.secondary{
+background:white;
+color:#111;
+}
+
+.secondary:hover{
+transform:translateY(-4px);
+}
+
+section{
+padding:90px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:48px;
+margin-bottom:60px;
+font-weight:700;
+color:#0b1736;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.about-text h2{
+font-size:42px;
+margin-bottom:20px;
+color:#0b1736;
+}
+
+.about-text p{
+font-size:18px;
+line-height:1.9;
+color:#555;
+margin-bottom:18px;
+}
+
+.facilities{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:28px;
+}
+
+.card{
+background:white;
+padding:35px 28px;
+border-radius:24px;
+box-shadow:0 8px 24px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+font-size:24px;
+margin-bottom:14px;
+color:#ff7a00;
+}
+
+.card p{
+line-height:1.7;
+color:#666;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:24px;
+}
+
+.gallery img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:22px;
+box-shadow:0 8px 24px rgba(0,0,0,0.12);
+transition:0.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.04);
+}
+
+.contact-box{
+background:linear-gradient(135deg,#0b1736,#132a61);
+padding:70px 40px;
+text-align:center;
+border-radius:30px;
+color:white;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.contact-box h2{
+font-size:48px;
+margin-bottom:25px;
+}
+
+.contact-box p{
+font-size:19px;
+margin:12px 0;
+}
+
+.call-btn{
+display:inline-block;
+margin-top:28px;
+padding:15px 38px;
+background:#ff7a00;
+color:white;
+text-decoration:none;
+border-radius:14px;
+font-size:18px;
+font-weight:600;
+transition:0.3s;
+}
+
+.call-btn:hover{
+background:#e56600;
+transform:translateY(-5px);
+}
+
+footer{
+background:#08101f;
+color:white;
+text-align:center;
+padding:28px;
+font-size:15px;
+}
+
+@media(max-width:900px){
+.about{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:46px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.section-title{
+font-size:36px;
+}
+
+.about-text h2{
+font-size:34px;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="hero">
+<div>
+<h1>Baba Mahakaal<br>PG House & Hostel</h1>
+<p>Modern Rooms • Safe Environment • Affordable Price • Best Student PG in Gwalior</p>
+
+<div class="btns">
+<a href="#gallery" class="btn primary">View Rooms</a>
+<a href="#contact" class="btn secondary">Contact Now</a>
+<a href="login.html">
+   <button class="login-btn">
+      Login / Register
+   </button>
+</a>
+</div>
+</div>
+</div>
+</header>
+
+<section>
+<h2 class="section-title">About Our Hostel</h2>
+
+<div class="about">
+<img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-zva36rndfy-250.jpg" alt="Hostel Building">
+
+<div class="about-text">
+<h2>Comfortable Stay For Students</h2>
+
+<p>
+Baba Mahakaal PG House & Hostel provides fully furnished rooms with peaceful environment for students and working professionals.
+</p>
+
+<p>
+Located near Maharajpura, Gwalior, the hostel offers clean rooms, attached washrooms, cooler facilities, spacious terrace and secure surroundings.
+</p>
+
+<p>
+The hostel is designed for comfortable living with affordable pricing and quality facilities.
+</p>
+</div>
+</div>
+</section>
+
+<section style="background:white;">
+<h2 class="section-title">Facilities</h2>
+
+<div class="facilities">
+
+<div class="card">
+<h3>Furnished Rooms</h3>
+<p>Modern rooms with beds, wardrobes and clean interiors.</p>
+</div>
+
+<div class="card">
+<h3>Cooler & Ventilation</h3>
+<p>Comfortable cooling and proper ventilation available.</p>
+</div>
+
+<div class="card">
+<h3>Clean Washrooms</h3>
+<p>Hygienic bathrooms with regular cleaning service.</p>
+</div>
+
+<div class="card">
+<h3>Safe Environment</h3>
+<p>Peaceful and secure environment for students.</p>
+</div>
+
+<div class="card">
+<h3>Terrace Area</h3>
+<p>Open terrace for relaxation and fresh air.</p>
+</div>
+
+<div class="card">
+<h3>Affordable Pricing</h3>
+<p>Budget-friendly hostel rooms with great facilities.</p>
+</div>
+
+</div>
+</section>
+
+<section id="gallery">
+<h2 class="section-title">Real Hostel Gallery</h2>
+
+<div class="gallery">
+<img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-zva36rndfy-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-folvuza7go-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-f5wf8jjguh-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-2nqitleezq-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-dwi4pu4la7-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-44ifn7v3ux-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-17l0jnkrzq-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-5tb9tifilq-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-ro8ujb2b53-250.jpg" alt="">
+        <img src="https://images.jdmagicbox.com/v2/comp/gwalior/v4/9999px751.x751.250428130859.s8v4/catalogue/baba-mahakaal-pg-house-and-hostel-maharajpura-a-f-gwalior-hostels-for-men-7fgw7nc0tn-250.jpg" alt="">
+</div>
+</section>
+
+<section id="contact">
+<div class="contact-box">
+<h2>Contact Us</h2>
+
+<p>📍 AH-13, LAXMI VATIKA KE PASS HANUMAAN MANDIR KE BAGA, BAB MAHAKAAL PG HOUSE AND HOSTEL Nahumaan Mandir, VAYU NAGAR, Maharajpura A F, Gwalior-474020, Madhya Pradesh</p>
+<p>📞 +91 9993156781</p>
+<p>🏠 Single & Double Sharing Rooms Available</p>
+<p>⭐ Affordable & Student Friendly PG</p>
+
+<a href="tel:+919993156781" class="call-btn">Call Now</a>
+</div>
+</section>
+
+<footer>
+© 2026 Baba Mahakaal PG House & Hostel • Designed By Shailendra Singh
+</footer>
+
+</body>
+</html>
