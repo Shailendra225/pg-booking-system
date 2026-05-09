@@ -145,7 +145,7 @@ window.bookRoom = async function(roomType){
     // RAZORPAY OPTIONS
     const options = {
 
-      key: "YOUR_RAZORPAY_KEY_ID",
+      key: "rzp_live_SkTA2fEgafK8A8",
 
       amount: order.amount,
 
